@@ -30,3 +30,13 @@ body {
     position: absolute;
     top: 460px;
 }
+
+html.dark {
+    --primary-color: #fff;
+    --secondary-color: #333;
+}
+
+html.dark {
+    background: #111;
+    color: var(--secondary-color);
+}
